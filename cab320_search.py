@@ -238,21 +238,22 @@ def tree_search(problem, frontier):
     """
     assert isinstance(problem, Problem)
     print problem
+
+    #initialize the frontier
     frontier.append(Node(problem.initial))
-    explored = set()
+
+    #keep doing if there is a frontier
     while frontier:
+        # remove a node from the frontier and investigate this node
         node = frontier.pop()
+        # if the node has a goal state, then return this node as he solution
         if problem.goal_test(node.state):
             return node
-        explored.add(node.state)
+        # otherwise, means that the goal is not reached and keep expanding
+        # the node and add its child to the frontier
         for child in node.expand(problem):
-            if child.state not in explored and child not in frontier:
-                frontier.append(child)
-            elif child in frontier:
-                incumbent = frontier[child] # incumbent is a node
-                if f(child) < f(incumbent):
-                    del frontier[incumbent]
-                    frontier.append(child)
+            frontier.append(child)
+    # if no frontier, return failure
     return None
 
 def graph_search(problem, frontier):
@@ -268,14 +269,19 @@ def graph_search(problem, frontier):
     frontier.append(Node(problem.initial))
     explored = set() # initial empty set of explored states
     while frontier:
-        pass
-
-#        "INSERT YOUR CODE HERE"
-
-        # Python note: next line uses of a generator
-        frontier.extend(child for child in node.expand(problem)
-                        if child.state not in explored
-                        and child not in frontier)
+        # remove a node from the frontier and investigate this node
+        node = frontier.pop()
+        # if the node has a goal state, then return this node as he solution
+        if problem.goal_test(node.state):
+            return node
+        # add the node to the explored set
+        explored.add(node.state)
+        for child in node.expand(problem):
+            # Python note: next line uses of a generator
+            if child.state not in explored and child not in frontier:
+                frontier.extend(child for child in node.expand(problem)
+                                if child.state not in explored
+                                and child not in frontier)
     return None
 
 
@@ -290,12 +296,11 @@ def depth_first_tree_search(problem):
     "Search the deepest nodes in the search tree first."
     #  "INSERT YOUR CODE HERE"
     # Hint: just one function call. Build on tree search
-    frontier = LIFOQueue()
-    return tree_search(problem, frontier)
+    return tree_search(problem, LIFOQueue())
     
 def depth_first_graph_search(problem):
     "Search the deepest nodes in the search tree first."
-    return #  "INSERT YOUR CODE HERE"
+    return graph_search(problem, FIFOQueue())
     
 
 def breadth_first_search(problem):

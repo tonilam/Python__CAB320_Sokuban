@@ -168,8 +168,9 @@ if __name__ == "__main__":
 
     t0 = time.time()
 
-    sol_ts = breadth_first_tree_search(sp)
-    #sol_ts = breadth_first_tree_search(sp)
+    #sol_ts = breadth_first_tree_search(sp) #solved
+    #sol_ts = depth_first_tree_search(sp) #seems the depth is infinity
+    #sol_ts = depth_first_graph_search(sp) #solved
 
     #sol_ts = best_first_graph_search(sp, lambda node: node.path_cost) #done
 
