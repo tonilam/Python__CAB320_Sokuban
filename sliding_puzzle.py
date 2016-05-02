@@ -163,19 +163,41 @@ class Sliding_puzzle(Problem):
 
 if __name__ == "__main__":
 
-    #sp = Sliding_puzzle(nr=3, nc=8, N=15)
-    sp = Sliding_puzzle()
+    sp = Sliding_puzzle(nr=3, nc=8, N=15)
 
     t0 = time.time()
 
-    #sol_ts = breadth_first_tree_search(sp) #solved
-    #sol_ts = depth_first_tree_search(sp) #seems the depth is infinity
-    #sol_ts = depth_first_graph_search(sp) #solved
-
-    #sol_ts = best_first_graph_search(sp, lambda node: node.path_cost) #done
-
+    sol_ts = breadth_first_tree_search(sp)
     t1 = time.time()
     sp.print_solution(sol_ts)
+    print "breadth_first_tree_search took ",t1-t0, ' seconds'
 
-    print "Solver took ",t1-t0, ' seconds'
+    sol_ts = breadth_first_search_v0(sp)
+    t1 = time.time()
+    #sp.print_solution(sol_ts)
+    print "breadth_first_search_v0 took ",t1-t0, ' seconds'
 
+    sol_ts = breadth_first_search(sp)
+    t1 = time.time()
+    #sp.print_solution(sol_ts)
+    print "breadth_first_search took ",t1-t0, ' seconds'
+
+    sol_ts = uniform_cost_search(sp)
+    t1 = time.time()
+    #sp.print_solution(sol_ts)
+    print "uniform_cost_search took ",t1-t0, ' seconds'
+
+    sol_ts = depth_limited_search(sp)
+    t1 = time.time()
+    #sp.print_solution(sol_ts)
+    print "depth_limited_search took ",t1-t0, ' seconds'
+
+    sol_ts = iterative_deepening_search(sp)
+    t1 = time.time()
+    #sp.print_solution(sol_ts)
+    print "iterative_deepening_search took ",t1-t0, ' seconds'
+
+    sol_ts = astar_search(sp)
+    t1 = time.time()
+    #sp.print_solution(sol_ts)
+    print "astar_search took ",t1-t0, ' seconds'
