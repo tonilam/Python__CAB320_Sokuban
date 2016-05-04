@@ -1,0 +1,316 @@
+Python 2.7.10 (default, May 23 2015, 09:40:32) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+============================== warehouse 1 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 464
+Time used = 0.145999908447
+Movement needed = 33
+['Down', 'Left', 'Up', 'Right', 'Right', 'Right', 'Down', 'Left', 'Up', 'Left', 'Left', 'Down', 'Down', 'Right', 'Up', 'Left', 'Up', 'Right', 'Up', 'Up', 'Left', 'Down', 'Right', 'Down', 'Down', 'Right', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Up']
+============================== warehouse 3 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 2200
+Time used = 0.922999858856
+Movement needed = 41
+['Right', 'Up', 'Up', 'Left', 'Left', 'Left', 'Up', 'Left', 'Down', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Left', 'Up', 'Right', 'Up', 'Left', 'Left', 'Left', 'Down', 'Down', 'Left', 'Left', 'Left', 'Up', 'Up', 'Right', 'Right', 'Down', 'Right', 'Down', 'Left', 'Up', 'Up', 'Up', 'Right', 'Down', 'Down']
+============================== warehouse 5 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 7 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 9 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 363
+Time used = 0.0989999771118
+Movement needed = 30
+['Up', 'Right', 'Right', 'Down', 'Up', 'Left', 'Left', 'Down', 'Right', 'Down', 'Right', 'Left', 'Up', 'Up', 'Right', 'Down', 'Right', 'Down', 'Down', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Up', 'Left']
+============================== warehouse 11 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 6404
+Time used = 2.56500005722
+Movement needed = 78
+['Up', 'Left', 'Left', 'Left', 'Down', 'Down', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Up', 'Left', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left', 'Left', 'Left', 'Up', 'Up', 'Up', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Down', 'Left', 'Left', 'Up', 'Left', 'Left', 'Down', 'Down', 'Right', 'Up', 'Left', 'Up', 'Right', 'Down', 'Right', 'Right', 'Right', 'Up', 'Right', 'Right', 'Down', 'Left', 'Left', 'Left', 'Left', 'Up', 'Left', 'Left', 'Down', 'Down', 'Right', 'Up', 'Right', 'Right', 'Right', 'Up', 'Up', 'Right', 'Up', 'Up', 'Left', 'Left', 'Left', 'Down', 'Down']
+============================== warehouse 13 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 15 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 769
+Time used = 0.263000011444
+Movement needed = 37
+['Down', 'Right', 'Down', 'Down', 'Down', 'Left', 'Left', 'Up', 'Up', 'Down', 'Down', 'Right', 'Right', 'Up', 'Up', 'Left', 'Up', 'Left', 'Left', 'Left', 'Down', 'Left', 'Left', 'Up', 'Right', 'Right', 'Right', 'Right', 'Down', 'Right', 'Right', 'Down', 'Down', 'Left', 'Left', 'Up', 'Up']
+============================== warehouse 17 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+
+['Impossible']
+============================== warehouse 19 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 1727
+Time used = 0.625
+Movement needed = 41
+['Up', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Down', 'Down', 'Right', 'Up', 'Up', 'Up', 'Up', 'Right', 'Up', 'Left', 'Left', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Down', 'Down', 'Left', 'Down', 'Down', 'Right', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Up', 'Right', 'Right']
+============================== warehouse 21 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 219
+Time used = 0.0659999847412
+Movement needed = 17
+['Down', 'Left', 'Left', 'Up', 'Down', 'Left', 'Up', 'Left', 'Up', 'Up', 'Right', 'Down', 'Right', 'Down', 'Down', 'Left', 'Up']
+============================== warehouse 23 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 792
+Time used = 0.216000080109
+Movement needed = 56
+['Right', 'Up', 'Up', 'Left', 'Left', 'Up', 'Right', 'Down', 'Right', 'Down', 'Down', 'Down', 'Left', 'Left', 'Up', 'Up', 'Down', 'Right', 'Right', 'Up', 'Up', 'Left', 'Up', 'Left', 'Left', 'Down', 'Right', 'Down', 'Down', 'Right', 'Right', 'Up', 'Up', 'Right', 'Up', 'Left', 'Left', 'Right', 'Down', 'Down', 'Down', 'Left', 'Left', 'Up', 'Up', 'Right', 'Up', 'Right', 'Down', 'Down', 'Up', 'Left', 'Left', 'Left', 'Up', 'Right']
+============================== warehouse 25 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 3
+Nodes generated = 1815
+Time used = 0.787999868393
+Movement needed = 29
+['Up', 'Right', 'Right', 'Down', 'Left', 'Up', 'Left', 'Left', 'Up', 'Up', 'Right', 'Down', 'Left', 'Down', 'Right', 'Left', 'Down', 'Down', 'Right', 'Up', 'Right', 'Right', 'Up', 'Up', 'Left', 'Left', 'Up', 'Left', 'Down']
+============================== warehouse 27 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 1531
+Time used = 0.474999904633
+Movement needed = 50
+['Down', 'Left', 'Up', 'Left', 'Down', 'Down', 'Left', 'Left', 'Up', 'Up', 'Up', 'Up', 'Right', 'Right', 'Right', 'Down', 'Up', 'Left', 'Left', 'Left', 'Down', 'Down', 'Down', 'Down', 'Right', 'Right', 'Up', 'Up', 'Left', 'Right', 'Down', 'Right', 'Right', 'Up', 'Left', 'Up', 'Up', 'Left', 'Left', 'Left', 'Down', 'Down', 'Down', 'Up', 'Right', 'Right', 'Down', 'Right', 'Up', 'Up']
+============================== warehouse 29 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 4777
+Time used = 1.95499992371
+Movement needed = 104
+['Up', 'Left', 'Left', 'Left', 'Down', 'Right', 'Up', 'Right', 'Right', 'Down', 'Right', 'Right', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Right', 'Up', 'Right', 'Right', 'Down', 'Right', 'Right', 'Right', 'Left', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down', 'Left', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up', 'Down', 'Down', 'Left', 'Left', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Right', 'Up', 'Up', 'Left', 'Down', 'Down', 'Down', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Down']
+============================== warehouse 31 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 3
+Nodes generated = 2051
+Time used = 1.00599980354
+Movement needed = 17
+['Down', 'Up', 'Right', 'Up', 'Right', 'Down', 'Down', 'Right', 'Down', 'Down', 'Left', 'Left', 'Up', 'Up', 'Left', 'Up', 'Right']
+============================== warehouse 33 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 35 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 37 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 3
+Nodes generated = 13528
+Time used = 8.25900006294
+Movement needed = 71
+['Down', 'Right', 'Right', 'Up', 'Up', 'Left', 'Left', 'Up', 'Left', 'Left', 'Down', 'Right', 'Right', 'Right', 'Left', 'Down', 'Down', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up', 'Down', 'Down', 'Left', 'Left', 'Up', 'Left', 'Left', 'Up', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Left', 'Down', 'Down', 'Right', 'Right', 'Up', 'Up', 'Up', 'Down', 'Left', 'Left', 'Up', 'Left', 'Left', 'Up', 'Left', 'Down', 'Left', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Left', 'Down', 'Down', 'Right', 'Right', 'Up', 'Up']
+============================== warehouse 39 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 3717
+Time used = 1.39600014687
+Movement needed = 85
+['Right', 'Up', 'Up', 'Left', 'Left', 'Left', 'Up', 'Up', 'Left', 'Left', 'Down', 'Down', 'Right', 'Left', 'Up', 'Up', 'Right', 'Right', 'Down', 'Down', 'Right', 'Right', 'Right', 'Down', 'Down', 'Left', 'Up', 'Right', 'Up', 'Left', 'Left', 'Left', 'Up', 'Up', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Down', 'Down', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up', 'Right', 'Right', 'Up', 'Right', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Right', 'Right', 'Down', 'Up', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Down', 'Right', 'Up', 'Down', 'Down', 'Right', 'Right', 'Up', 'Left']
+============================== warehouse 41 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 3
+Nodes generated = 1874
+Time used = 0.731000185013
+Movement needed = 50
+['Up', 'Right', 'Down', 'Up', 'Right', 'Right', 'Down', 'Left', 'Right', 'Right', 'Down', 'Down', 'Left', 'Up', 'Right', 'Up', 'Up', 'Left', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Right', 'Down', 'Left', 'Left', 'Left', 'Up', 'Left', 'Up', 'Right', 'Right', 'Up', 'Right', 'Down', 'Up', 'Right', 'Down']
+============================== warehouse 43 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 45 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 3
+Nodes generated = 2422
+Time used = 0.922000169754
+Movement needed = 45
+['Left', 'Up', 'Left', 'Up', 'Up', 'Up', 'Right', 'Right', 'Right', 'Down', 'Left', 'Up', 'Left', 'Left', 'Down', 'Down', 'Down', 'Down', 'Right', 'Right', 'Right', 'Up', 'Left', 'Up', 'Up', 'Right', 'Up', 'Left', 'Down', 'Down', 'Down', 'Left', 'Down', 'Left', 'Up', 'Up', 'Up', 'Right', 'Left', 'Down', 'Down', 'Right', 'Right', 'Up', 'Up']
+============================== warehouse 47 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 7841
+Time used = 3.37999987602
+Movement needed = 83
+['Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Left', 'Left', 'Down', 'Right', 'Right', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Right', 'Right', 'Right', 'Up', 'Right', 'Down', 'Down', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Right', 'Right', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Right', 'Right', 'Up', 'Up', 'Up', 'Right', 'Right', 'Down', 'Left', 'Up', 'Left', 'Down', 'Down', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Down', 'Right', 'Right', 'Up', 'Right', 'Right', 'Left', 'Left', 'Down', 'Left', 'Left', 'Up', 'Right', 'Right']
+============================== warehouse 49 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 3
+Nodes generated = 11435
+Time used = 6.7349998951
+Movement needed = 82
+['Left', 'Down', 'Down', 'Down', 'Right', 'Left', 'Up', 'Right', 'Left', 'Up', 'Up', 'Right', 'Down', 'Down', 'Up', 'Up', 'Right', 'Right', 'Down', 'Down', 'Left', 'Down', 'Down', 'Down', 'Left', 'Down', 'Right', 'Right', 'Left', 'Up', 'Up', 'Up', 'Up', 'Right', 'Up', 'Up', 'Left', 'Left', 'Down', 'Left', 'Down', 'Down', 'Right', 'Left', 'Up', 'Up', 'Right', 'Down', 'Right', 'Down', 'Down', 'Down', 'Left', 'Down', 'Down', 'Right', 'Right', 'Up', 'Left', 'Down', 'Right', 'Right', 'Right', 'Up', 'Left', 'Down', 'Left', 'Left', 'Up', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Down', 'Down']
+============================== warehouse 51 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 814
+Time used = 0.286000013351
+Movement needed = 34
+['Right', 'Down', 'Down', 'Left', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Left', 'Down', 'Left', 'Left', 'Up', 'Up', 'Right', 'Down', 'Left', 'Down', 'Right', 'Right', 'Up', 'Right', 'Down', 'Left', 'Down', 'Down', 'Right', 'Right', 'Right', 'Up', 'Up', 'Left']
+============================== warehouse 53 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 4
+Nodes generated = 7572
+Time used = 5.68000006676
+Movement needed = 37
+['Left', 'Up', 'Left', 'Up', 'Up', 'Right', 'Up', 'Right', 'Right', 'Down', 'Right', 'Down', 'Down', 'Left', 'Up', 'Up', 'Down', 'Down', 'Down', 'Left', 'Left', 'Up', 'Up', 'Up', 'Right', 'Left', 'Down', 'Down', 'Down', 'Right', 'Right', 'Up', 'Left', 'Down', 'Left', 'Up', 'Up']
+============================== warehouse 55 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 3282
+Time used = 1.71700000763
+Movement needed = 64
+['Down', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Left', 'Up', 'Down', 'Right', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Up', 'Up', 'Left', 'Left', 'Left', 'Up', 'Left', 'Left', 'Down', 'Right', 'Right', 'Right', 'Right', 'Up', 'Right', 'Down', 'Down', 'Down', 'Left', 'Up', 'Down', 'Down', 'Right', 'Right', 'Left', 'Up', 'Up', 'Up', 'Left', 'Left', 'Left', 'Up', 'Left', 'Left', 'Down', 'Right', 'Right', 'Right', 'Right', 'Up', 'Right', 'Down', 'Down', 'Down', 'Left', 'Down', 'Right']
+============================== warehouse 57 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 3761
+Time used = 2.33200001717
+Movement needed = 60
+['Down', 'Down', 'Down', 'Right', 'Down', 'Right', 'Right', 'Up', 'Left', 'Left', 'Down', 'Left', 'Up', 'Left', 'Left', 'Down', 'Right', 'Right', 'Right', 'Up', 'Left', 'Up', 'Up', 'Right', 'Up', 'Up', 'Left', 'Down', 'Down', 'Down', 'Down', 'Left', 'Down', 'Right', 'Up', 'Right', 'Right', 'Right', 'Down', 'Down', 'Left', 'Up', 'Right', 'Up', 'Left', 'Left', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Left', 'Left', 'Left', 'Up', 'Right', 'Right', 'Right']
+============================== warehouse 59 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 61 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 63 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 8221
+Time used = 3.84500002861
+Movement needed = 101
+['Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Left', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Left', 'Up', 'Right', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Left', 'Left', 'Down', 'Right', 'Right', 'Right', 'Down', 'Down', 'Left', 'Up', 'Right', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Right', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Left', 'Left', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Right', 'Up', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Right', 'Right', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left']
+============================== warehouse 65 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 67 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 3
+Nodes generated = 1209
+Time used = 0.528000116348
+Movement needed = 37
+['Up', 'Up', 'Right', 'Right', 'Down', 'Down', 'Right', 'Down', 'Left', 'Up', 'Up', 'Up', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Down', 'Right', 'Right', 'Down', 'Down', 'Left', 'Left', 'Up', 'Left', 'Up', 'Right', 'Up', 'Up', 'Up', 'Left', 'Left', 'Down', 'Down', 'Right']
+============================== warehouse 69 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 71 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 2
+Nodes generated = 6543
+Time used = 2.61800003052
+Movement needed = 120
+['Up', 'Right', 'Down', 'Down', 'Up', 'Up', 'Left', 'Left', 'Left', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Left', 'Down', 'Down', 'Left', 'Left', 'Left', 'Down', 'Left', 'Left', 'Up', 'Right', 'Right', 'Right', 'Right', 'Down', 'Right', 'Up', 'Up', 'Down', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Up', 'Left', 'Left', 'Left', 'Down', 'Right', 'Right', 'Up', 'Right', 'Down', 'Down', 'Up', 'Left', 'Left', 'Left', 'Down', 'Down', 'Down', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Up', 'Left', 'Left', 'Down', 'Right', 'Right', 'Right', 'Left', 'Left', 'Down', 'Down', 'Left', 'Left', 'Left', 'Down', 'Left', 'Left', 'Up', 'Right', 'Right', 'Right', 'Right', 'Down', 'Right', 'Up', 'Up']
+============================== warehouse 73 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 75 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 77 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 79 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 3
+Nodes generated = 6742
+Time used = 3.44899988174
+Movement needed = 48
+['Left', 'Left', 'Left', 'Down', 'Left', 'Left', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Right', 'Right', 'Right', 'Down', 'Up', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Down', 'Right', 'Right', 'Up', 'Left', 'Left', 'Left', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Left', 'Down', 'Right', 'Down', 'Left', 'Left']
+============================== warehouse 81 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+Boxes = 3
+Nodes generated = 7106
+Time used = 3.87800002098
+Movement needed = 46
+['Left', 'Up', 'Up', 'Up', 'Right', 'Right', 'Down', 'Left', 'Down', 'Left', 'Down', 'Down', 'Down', 'Right', 'Right', 'Up', 'Left', 'Up', 'Up', 'Up', 'Right', 'Up', 'Up', 'Left', 'Left', 'Down', 'Down', 'Right', 'Down', 'Down', 'Left', 'Left', 'Up', 'Right', 'Down', 'Right', 'Up', 'Down', 'Down', 'Down', 'Left', 'Up', 'Up', 'Left', 'Up', 'Right']
+============================== warehouse 83 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 85 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 87 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 89 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 91 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 93 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 95 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 97 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 99 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.
+['Timeout']
+============================== warehouse 101 ==============================
+Checking solveSokoban_elementary()
+Attemp to solve this problem within  10  seconds.

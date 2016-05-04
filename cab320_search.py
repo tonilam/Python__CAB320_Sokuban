@@ -438,6 +438,23 @@ def astar_search(problem, h=None):
     h = memoize(h or problem.h)
     return best_first_graph_search(problem, lambda n: n.path_cost + h(n))
 
+def iterative_deepening_astar_search(problem, h=None):
+    """A* search is best-first graph search with f(n) = g(n)+h(n).
+    You need to specify the h function when you call astar_search, or
+    else in your Problem subclass."""
+    h = memoize(h or problem.h)
+    "[Fig. 3.17]"
+    def recursive_dls(node, problem, limit):
+        if problem.goal_test(node.state):
+            return node
+        elif node.depth == limit:
+            return 'cutoff'
+        else:
+            return astar_search(problem)
+
+    # Body of depth_limited_search:
+    return recursive_dls(Node(problem.initial), problem, limit)
+
 #______________________________________________________________________________
 #
 
